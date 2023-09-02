@@ -253,7 +253,7 @@ section {
 .contact-form input:focus, 
 .contact-form textarea:focus {
     border-color: #007ADF;
-    box-shadow: 0 0 10px rgba(0, 122, 223, 0.3); /* A subtle shadow with color #007ADF */
+    box-shadow: 0 0 10px rgba(0, 122, 223, 0.3); 
 }
 
 .contact-form input[type="submit"] {
@@ -263,12 +263,12 @@ section {
   border-radius: 5px;
   padding: 10px 15px; 
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;  /* Smooth transition for background and transform */
+  transition: background-color 0.3s ease, transform 0.3s ease;  
 }
 
 .contact-form input[type="submit"]:hover {
-  background-color: #0058A3; /* A darker shade of #007ADF */
-  transform: scale(1.05);  /* Slightly enlarge the button */
+  background-color: #0058A3; 
+  transform: scale(1.05);  
 }
 
 .contact-content {
